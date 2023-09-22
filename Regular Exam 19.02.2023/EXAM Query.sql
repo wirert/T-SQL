@@ -216,3 +216,6 @@ END
 
 GO
 EXEC usp_SearchByCategory 'Wargames'
+
+TRUNCATE Publisher
+ where 
